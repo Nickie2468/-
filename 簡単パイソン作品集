@@ -1,0 +1,113 @@
+initializeTurtle()
+
+for i in range(3):
+    forward(200)
+    left(120)
+
+
+!pip3 install ColabTurtle
+from ColabTurtle.Turtle import *
+
+from turtle import *
+initializeTurtle()
+
+for i in range (4):
+  forward(200)
+  left(90)
+
+initializeTurtle()
+
+for i in range(5):
+  forward(200)
+  left(144)
+
+initializeTurtle(initial_window_size=(400,400), initial_speed=10)
+
+bgcolor("white")
+color("blue")
+width(2)
+l = 50
+m = 20
+n = 10
+
+for i in range(m):
+   for j in range(n):
+      forward(l)
+      left(360/n)
+   left(360/m)
+
+hideturtle()
+
+initializeTurtle(initial_speed=10)
+bgcolor("white")
+color("purple")
+width(4)
+
+l = 30
+angel_1 = 30
+angel_2 = 60
+for i in range (6):
+  for j in range(8):
+      forward(l)
+      left(angel_1)
+  left(angel_2)
+
+initializeTurtle(initial_speed=10)
+bgcolor('white')
+color("blue")
+width(4)
+
+i = 30
+angel_1 = 30
+angel_2 = 70
+for i in range(9):
+    for j in range(7):
+        forward(l)
+        left(angel_1)
+
+    left(angel_2)
+
+initializeTurtle(initial_speed=10)
+bgcolor('white')
+color("blue")
+width(4)
+
+a = 0
+while a<200:
+    left(90)
+    forward(a)
+    a = a + 5
+
+initializeTurtle(initial_speed=10)
+bgcolor("white")
+color("blue")
+width(4)
+
+a = 0
+while a<200:
+    left(90)
+    forward(a)
+    a = a + 5
+
+initializeTurtle(initial_speed=10)
+bgcolor("white")
+color("blue")
+width(4)
+
+a = 0
+while a<200:
+    left(80)
+    forward(a)
+    a = a + 5
+
+
+a = 0
+while a<200:
+    left(70)
+    forward(a)
+    a = a + 3
+i = 0
+while i < 6:
+    forward(100)
+    left(60)
+    i = i + 1
