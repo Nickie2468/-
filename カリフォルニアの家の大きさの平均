@@ -1,0 +1,13 @@
+import pandas as pd
+from sklearn.datasets import fetch_california_housing
+housing = fetch_california_housing()
+df = pd.DataFrame(housing.data, columns=housing.feature_names)
+
+
+df[["HouseAge"]]
+df[["HouseAge","Population"]]
+df[0:10]
+df.loc[0:10,["HouseAge","Population"]]
+df.iloc[:10, 5:8]
+df.loc[df["AveRooms"] >= 7 ]
+mdf.loc[(df["AveRooms"] >=7) & (df["Population"] <= 100)]
